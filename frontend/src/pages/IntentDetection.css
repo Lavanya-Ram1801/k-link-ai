@@ -1,0 +1,417 @@
+.intent-page {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 50px 80px;
+    box-sizing: border-box;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+.intent-header {
+    margin-bottom: 30px;
+}
+
+.intent-eyebrow {
+    display: block;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #526b91;
+    margin-bottom: 10px;
+}
+
+.intent-header h1 {
+    margin: 0;
+    font-size: 38px;
+    color: #071b3a;
+}
+
+.intent-header p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #526b91;
+}
+
+
+/* =========================
+   INPUT CARD
+========================= */
+
+.intent-input-card {
+    background: #ffffff;
+    border: 1px solid #e1e6ed;
+    border-radius: 18px;
+    padding: 28px;
+    box-shadow: 0 8px 25px rgba(20, 45, 80, 0.06);
+    margin-bottom: 35px;
+}
+
+.intent-input-card label {
+    display: block;
+    font-size: 17px;
+    font-weight: 700;
+    color: #071b3a;
+    margin-bottom: 12px;
+}
+
+.intent-input-card textarea {
+    width: 100%;
+    min-height: 150px;
+    box-sizing: border-box;
+    resize: vertical;
+
+    border: 1px solid #d9e0e8;
+    border-radius: 12px;
+
+    padding: 18px;
+
+    font-size: 16px;
+    font-family: inherit;
+
+    outline: none;
+
+    background: #f8fafc;
+}
+
+.intent-input-card textarea:focus {
+    border-color: #2f55a4;
+    box-shadow: 0 0 0 3px rgba(47, 85, 164, 0.10);
+}
+
+.intent-input-card button {
+    margin-top: 18px;
+
+    padding: 13px 24px;
+
+    border: none;
+    border-radius: 10px;
+
+    background: #294d99;
+    color: white;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.2s ease;
+}
+
+.intent-input-card button:hover {
+    background: #1f3e7d;
+    transform: translateY(-1px);
+}
+
+.intent-input-card button:disabled {
+    opacity: 0.65;
+    cursor: not-allowed;
+    transform: none;
+}
+
+
+/* =========================
+   RESULT CONTAINER
+========================= */
+
+.intent-result {
+    background: #ffffff;
+
+    border-radius: 20px;
+
+    padding: 40px 42px;
+
+    box-shadow: 0 10px 35px rgba(20, 45, 80, 0.08);
+
+    border: 1px solid #e2e7ed;
+}
+
+
+/* =========================
+   RESULT HEADER
+========================= */
+
+.intent-result-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    gap: 30px;
+
+    padding-bottom: 30px;
+
+    border-bottom: 1px solid #e1e5eb;
+}
+
+.intent-result-header h2 {
+    margin: 0;
+
+    font-size: 32px;
+
+    color: #071b3a;
+}
+
+.intent-result-header p {
+    margin-top: 8px;
+
+    font-size: 16px;
+
+    color: #60728c;
+}
+
+.intent-risk {
+    min-width: 150px;
+
+    padding: 18px;
+
+    border-radius: 18px;
+
+    text-align: center;
+
+    background: #fff8e8;
+}
+
+.intent-risk span {
+    display: block;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    color: #b56a00;
+
+    margin-bottom: 4px;
+}
+
+.intent-risk strong {
+    display: block;
+
+    font-size: 27px;
+
+    color: #bd6200;
+}
+
+
+/* =========================
+   SECTIONS
+========================= */
+
+.intent-section {
+    padding: 30px 0;
+
+    border-bottom: 1px solid #e1e5eb;
+}
+
+.last-section {
+    border-bottom: none;
+}
+
+.intent-section h3 {
+    margin: 0;
+
+    font-size: 21px;
+
+    color: #071b3a;
+}
+
+.section-title {
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+
+    margin-bottom: 18px;
+}
+
+.section-title span {
+    font-size: 22px;
+}
+
+.section-description {
+    margin-top: 6px;
+
+    color: #60728c;
+
+    font-size: 15px;
+}
+
+
+/* =========================
+   ORIGINAL MESSAGE
+========================= */
+
+.intent-message-box {
+    margin-top: 15px;
+
+    padding: 20px 22px;
+
+    background: #f5f8fc;
+
+    border-left: 5px solid #3158a4;
+
+    border-radius: 12px;
+
+    font-size: 18px;
+
+    color: #15243a;
+
+    line-height: 1.6;
+}
+
+
+/* =========================
+   INFO CARDS
+========================= */
+
+.intent-info-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, 1fr);
+
+    gap: 16px;
+
+    padding: 30px 0;
+
+    border-bottom: 1px solid #e1e5eb;
+}
+
+.intent-info-card {
+    min-height: 110px;
+
+    padding: 20px;
+
+    border: 1px solid #dfe5ec;
+
+    border-radius: 15px;
+
+    background: #ffffff;
+}
+
+.intent-info-card span {
+    display: block;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    color: #60728c;
+
+    margin-bottom: 10px;
+}
+
+.intent-info-card strong {
+    display: block;
+
+    font-size: 17px;
+
+    color: #071b3a;
+
+    line-height: 1.4;
+}
+
+
+/* =========================
+   HIGHLIGHT BOX
+========================= */
+
+.intent-highlight-box {
+    margin-top: 15px;
+
+    padding: 20px 22px;
+
+    border-radius: 12px;
+
+    background: #f2f6fd;
+
+    border-left: 5px solid #3158a4;
+
+    font-size: 17px;
+
+    color: #17243a;
+
+    line-height: 1.6;
+}
+
+.intent-highlight-box.professional {
+    background: #f1f7ff;
+
+    border-left-color: #294d99;
+
+    font-size: 18px;
+
+    font-weight: 500;
+}
+
+
+/* =========================
+   NORMAL TEXT
+========================= */
+
+.intent-text {
+    margin: 5px 0 0;
+
+    color: #26384f;
+
+    font-size: 16px;
+
+    line-height: 1.8;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 900px) {
+
+    .intent-page {
+        padding: 30px 25px 60px;
+    }
+
+    .intent-info-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .intent-result-header {
+        flex-direction: column;
+    }
+
+    .intent-risk {
+        align-self: flex-start;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    .intent-page {
+        padding: 25px 15px 50px;
+    }
+
+    .intent-header h1 {
+        font-size: 30px;
+    }
+
+    .intent-header p {
+        font-size: 16px;
+    }
+
+    .intent-result {
+        padding: 25px 20px;
+    }
+
+    .intent-result-header h2 {
+        font-size: 26px;
+    }
+
+    .intent-info-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .intent-input-card {
+        padding: 20px;
+    }
+}
