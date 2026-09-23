@@ -129,7 +129,7 @@ Users can speak their workplace responses instead of typing them.
 
 ## 🏠 Home
 
-![K-LINK AI Home](screenshots/home.png)
+![K-LINK AI Home](D:\K-LINK-AI\screenshots\Home.png)
 
 ---
 
