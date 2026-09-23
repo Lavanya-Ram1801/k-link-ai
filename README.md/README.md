@@ -125,43 +125,7 @@ Users can speak their workplace responses instead of typing them.
 
 ---
 
-# 📸 Project Screenshots
 
-## 🏠 Home
-
-![K-LINK AI Home](D:\K-LINK-AI\screenshots\Home.png)
-
----
-
-## 💬 Workplace Miscommunication Predictor
-
-![Miscommunication Predictor](screenshots/miscommunication.png)
-
----
-
-## 🌏 Cultural Intent Detection
-
-![Cultural Intent Detection](screenshots/cultural-intent.png)
-
----
-
-## 🎙️ Meeting Intelligence
-
-![Meeting Intelligence](screenshots/meeting-intelligence.png)
-
----
-
-## 📚 RAG Knowledge Assistant
-
-![RAG Assistant](screenshots/rag-assistant.png)
-
----
-
-## 🎯 Communication Simulator
-
-![Communication Simulator](screenshots/communication-simulator.png)
-
----
 
 # 🧠 System Architecture
 
